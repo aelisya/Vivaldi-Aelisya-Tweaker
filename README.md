@@ -2,12 +2,10 @@
 ![OSSAR](https://github.com/macqael/Aelisya-Tweaker/workflows/OSSAR/badge.svg)![CodeQL](https://github.com/macqael/Aelisya-Tweaker/workflows/CodeQL/badge.svg?branch=master)\
 Add security and privacy with this extension.
 
-- AMP redirection.
-- Add modern Scrollbar to the browser (follow system color) injected with JS.
+- AMP Blocking.
 - Blocking ping requests.
 - Block CSP_REPORT.
 - Block Sentry and Bugsnag.
-- E-Tag Track protection.
 
 ## Installation
 <a href="https://microsoftedge.microsoft.com/addons/detail/aelisya/ackodolhpbogckmcjkfdcgifhigeghkg"><img src="https://raw.githubusercontent.com/macqael/Aelisya-Tweaker/bd4575c1165645c7216b49e22a0b470c38efebfc/icons/EdgeStore.webp"></img></a>
@@ -20,9 +18,18 @@ From 13/11/2020 all Commit or push request must be signed (green validated) or i
 Why 13/11 because it's the date when i have applied this rules.
 
 ## Manifest V3
-The code for supporting manifest V3 is done and work very smoothly edge 88 support majority of it's code, normally i will publish it with 89 if they integrate it (manifest v3), the package is already uploaded waiting for publication.
+V7 added migration to Manifest V3.
 
 ## Release Notes
+
+### V 7.0
+<ul>
+<li>Migration to Manifest V3</li>
+<li>Removal of Scrollbar modification</li>
+<li>Switch from redirect to complete block of AMP</li>
+<li>Removal of ETAG blocker since it negativly affect the browsing experiences</li>
+<li>The extension does not have to read the page anymore so permission are also removed for a better security</li>
+</ul>
 
 ### V 6.4
 <ul>
