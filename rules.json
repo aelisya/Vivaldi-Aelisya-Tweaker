@@ -14,13 +14,10 @@
         "id": 2,
         "priority": 1,
         "action": {
-            "type": "redirect",
-            "redirect": {
-                "regexSubstitution": "https://\\1"
-            }
+            "type": "block"
         },
         "condition": {
-            "regexFilter": "^(?:https|http):\/\/www.(?:bing|google).*\/amp\/s\/((?:[a-zA-Z0-9.])+(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9\/]*))",
+            "regexFilter": "^(?:https|http):\/\/(?:.*cdn.ampproject.org|.*bing-amp.com)\/c\/((?:[a-zA-Z0-9.])+(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9\/]*))", 
             "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "media", "websocket", "other"]
         }
     },
@@ -31,66 +28,11 @@
             "type": "block"
         },
         "condition": {
-            "regexFilter": "^(?:https|http):\/\/(?:.*cdn.ampproject.org|.*bing-amp.com)\/c\/((?:[a-zA-Z0-9.])+(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9\/]*))", 
-            "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "media", "websocket", "other"]
-        }
-    },
-    {
-        "id": 4,
-        "priority": 1,
-        "action": {
-            "type": "redirect",
-            "redirect": {
-                "regexSubstitution": "https://\\1"
-            }
-        },
-        "condition": {
-            "regexFilter": "^(?:https|http):\/\/(?:.*cdn.ampproject.org|.*bing-amp.com)\/c\/s\/((?:[a-zA-Z0-9.])+(?:[a-zA-Z0-9])+(?:[a-zA-Z0-9\/]*))",
-            "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "media", "websocket", "other"]
-        }
-    },
-    {
-        "id": 5,
-        "priority": 1,
-        "action": {
-            "type": "redirect",
-            "redirect": {
-                "regexSubstitution": "https://t.co/\\1"
-            }
-        },
-        "condition": {
-            "regexFilter": "^(?:https|http):\/\/t.co\/(.*).+amp=1",
-            "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "media", "websocket", "other"]
-        }
-    },
-    {
-        "id": 6,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
             "resourceTypes": ["ping", "csp_report"]
         }
     },
     {
-        "id": 7,
-        "priority": 1,
-        "action": {
-            "type": "modifyHeaders",
-            "responseHeaders": [{ 
-                "header": "ETag",
-                "operation": "remove"
-            }]
-        },
-        "condition": {
-            "regexFilter": "^(?:https|http):\/\/*",
-            "resourceTypes": ["main_frame", "sub_frame", "stylesheet", "script", "image", "font", "object", "xmlhttprequest", "media", "websocket", "other"]
-        }
-        
-    },
-    {
-        "id": 8,
+        "id": 4,
         "priority": 1,
         "action": {
             "type": "block"
@@ -101,7 +43,7 @@
         }
     },
     {
-        "id": 9,
+        "id": 5,
         "priority": 1,
         "action": {
             "type": "block"
