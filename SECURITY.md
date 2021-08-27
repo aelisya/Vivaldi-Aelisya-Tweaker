@@ -7,4 +7,4 @@ If you found a vunlerability don't wait to see if the new version is patched, be
 
 ## Reporting a Vulnerability
 
-You can send me a mail to : security@bacq.pro
+You can send me a mail to the email on my profile.
