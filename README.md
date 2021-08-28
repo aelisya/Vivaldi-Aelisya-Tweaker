@@ -22,6 +22,13 @@ V7 added migration to Manifest V3.
 
 ## Release Notes
 
+### V 7.1
+<ul>
+<li>Changing my username</li>
+<li>Modification to url to match username</li>
+<li>Change done to add more sucurity durint the update/developement on my side this update change noting to the extension</li>
+</ul>
+
 ### V 7.0
 <ul>
 <li>Migration to Manifest V3</li>
