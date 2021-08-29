@@ -14,13 +14,7 @@ Add security and privacy with this extension.
 Follow the template or the issue will be closed immediately without reading !
 
 ## Whats the commit "Verification commit" ?
-This commit is a commit to signal that i have checked all the code at this commit to securise my account.
-From now i will not add any commit not verified or with an external key to ensure the safety of my project.
-
-The project is also uploaded to the differents store on a machine who have Secureboot a TPM is fully encrypted and secured with 2FA an biometric authentication.
-I also have updated all my services from my email to my favorite website to read story, with unique password on each 2FA unique username and unique email for all.
-
-The version 7.1 of the application is a minor update with the version of the "Verified commit", the version 7.0 have removed any "reading" capabilities of the extension to also add more security.
+See my [Security](https://github.com/BirdInFire/Aelisya-Tweaker/blob/master/SECURITY.md) to know more about that.
 
 ## Manifest V3
 V7 added migration to Manifest V3.
