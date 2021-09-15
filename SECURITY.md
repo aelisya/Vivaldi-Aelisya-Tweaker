@@ -13,6 +13,10 @@ The project is also uploaded to the differents store on a Fully secured hardware
 
 The version 7.1 of the application is a minor update with the version of the "Verified commit", the version 7.0 have removed any "reading" capabilities of the extension to also add more security.
 
+## Account Security
+My microsoft Account security is protected with 2FA, Windows hello enforced on an updated software.
+My Account have now "Paswordless" function activated and imune to bruteforce attack, coupled with the uniqueness of email for each of my services is very secured.
+
 ## Manifest V3
 V7 added migration to Manifest V3, who add many security/privacy improvement to the project, these improvement have forced me to remove some feature (css for screllbar) because the V3 will have forced me to ask the permission to read/modify all your website page, and since i do not want to ask this permission and create an extension who rely on trust, i have removed it.
 
