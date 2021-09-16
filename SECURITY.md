@@ -15,7 +15,8 @@ The version 7.1 of the application is a minor update with the version of the "Ve
 
 ## Account Security
 My microsoft Account security is protected with 2FA, Windows hello enforced on an updated software.\
-My Account have now "Paswordless" function activated and imune to bruteforce attack, coupled with the uniqueness of email for each of my services is very secured.
+My Account have now "Paswordless" function activated and imune to bruteforce attack since the password is totally removed.\
+Also the email used for connection is unique (i use unique email for every services).
 
 ## Manifest V3
 V7 added migration to Manifest V3, who add many security/privacy improvement to the project, these improvement have forced me to remove some feature (css for screllbar) because the V3 will have forced me to ask the permission to read/modify all your website page, and since i do not want to ask this permission and create an extension who rely on trust, i have removed it.
