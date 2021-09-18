@@ -13,6 +13,9 @@ Add security and privacy with this extension.
 ## Report a bug or asking for a feature ?
 Follow the template or the issue will be closed immediately without reading !
 
+## Security Updates
+- [NEW] For best Security the Microsoft Account who push the extension on edge store is now a passwordless-only account.
+
 ## Whats the commit "Verification commit" ?
 See my [Security](https://github.com/BirdInFire/Aelisya-Tweaker/blob/master/SECURITY.md) to know more about that.
 
